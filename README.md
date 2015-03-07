@@ -20,9 +20,9 @@ obj = Screenshot(username, password)
 
 ###Methods
 ------------------
-* `get_os_browsers` - returns the list of all OS and Browsers supported by BrowserStack in json format
+* `get_os_browsers` : returns the list of all OS and Browsers supported by BrowserStack in json format
 
-* `get_screenshot(**params)` - takes the screenshots
+* `get_screenshot(**params)` : takes the screenshots
 set params={...} and call the function as get_screenshots(**params)
 ####Example
 Eg setting object:
@@ -42,4 +42,4 @@ params = {
 	]
 }
 ```
-* `get_full_status` - gives the list of screenshots and their states in json format
+* `get_full_status` : gives the list of screenshots and their states in json format
