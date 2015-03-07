@@ -3,7 +3,7 @@ BrowserStack Screenshot API Wrapper
 This is a wrapper for BrowserStack Screenshot API, implemented in python. 
 ###Usage
 --------------------
-import screenshot
+import screenshot as screen
 
 ###Creating Client
 -------------------
@@ -15,7 +15,7 @@ Creates a new client instance.
 ``` python
 username = "name@example.com"
 password = "pwd"
-obj = Screenshot(username, password)
+obj = screen.Screenshot(username, password)
 ```
 
 ###Methods
@@ -25,7 +25,6 @@ obj = Screenshot(username, password)
 * `get_screenshot(**params)` : takes the screenshots
 set params={...} and call the function as get_screenshots(**params)
 ####Example
-Eg setting object:
 ``` python
 params = {
 	url = "www.google.com",
