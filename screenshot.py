@@ -39,7 +39,7 @@ class Screenshot(object):
 		resp = self.session.get(os.path.join(self.url, self.jobID))
 		return json.loads(resp.content)
 
-#s=Screenshot("email_id","pwd")
+#s=Screenshot("username","password")
 #kwargs={"browsers": [{"os": "Windows", "os_version": "7", "browser_version": "8.0", "browser": "ie"}], "url": "http://google.com"}
 #print s.get_screenshots(**kwargs)
 #print s.get_full_status()
